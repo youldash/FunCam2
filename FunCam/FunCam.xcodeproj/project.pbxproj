@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DFBD1917E0F41F00D8AB56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DFBD1817E0F41F00D8AB56 /* Foundation.framework */; };
+		84DFBD1B17E0F41F00D8AB56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DFBD1A17E0F41F00D8AB56 /* CoreGraphics.framework */; };
+		84DFBD1D17E0F41F00D8AB56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DFBD1C17E0F41F00D8AB56 /* UIKit.framework */; };
+		84DFBD2317E0F41F00D8AB56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DFBD2117E0F41F00D8AB56 /* InfoPlist.strings */; };
+		84DFBD2517E0F41F00D8AB56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBD2417E0F41F00D8AB56 /* main.m */; };
+		84DFBD2917E0F41F00D8AB56 /* FCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBD2817E0F41F00D8AB56 /* FCAppDelegate.m */; };
+		84DFBD2C17E0F41F00D8AB56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DFBD2A17E0F41F00D8AB56 /* Main.storyboard */; };
+		84DFBD2F17E0F41F00D8AB56 /* FCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBD2E17E0F41F00D8AB56 /* FCMasterViewController.m */; };
+		84DFBD3217E0F41F00D8AB56 /* FCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBD3117E0F41F00D8AB56 /* FCDetailViewController.m */; };
+		84DFBD3417E0F41F00D8AB56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DFBD3317E0F41F00D8AB56 /* Images.xcassets */; };
+		84DFBD3B17E0F41F00D8AB56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DFBD3A17E0F41F00D8AB56 /* XCTest.framework */; };
+		84DFBD3C17E0F41F00D8AB56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DFBD1817E0F41F00D8AB56 /* Foundation.framework */; };
+		84DFBD3D17E0F41F00D8AB56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DFBD1C17E0F41F00D8AB56 /* UIKit.framework */; };
+		84DFBD4517E0F41F00D8AB56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DFBD4317E0F41F00D8AB56 /* InfoPlist.strings */; };
+		84DFBD4717E0F41F00D8AB56 /* FunCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBD4617E0F41F00D8AB56 /* FunCamTests.m */; };
+		84DFBD5217E172F700D8AB56 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DFBD5117E172F700D8AB56 /* Photo.m */; };
+		84DFBD5517E18CC000D8AB56 /* FunCam.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DFBD5317E18CC000D8AB56 /* FunCam.png */; };
+		84DFBD5617E18CC000D8AB56 /* FunCam@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DFBD5417E18CC000D8AB56 /* FunCam@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84DFBD3E17E0F41F00D8AB56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84DFBD0D17E0F41F00D8AB56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DFBD1417E0F41F00D8AB56;
+			remoteInfo = FunCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84DFBD1517E0F41F00D8AB56 /* FunCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DFBD1817E0F41F00D8AB56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84DFBD1A17E0F41F00D8AB56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84DFBD1C17E0F41F00D8AB56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84DFBD2017E0F41F00D8AB56 /* FunCam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunCam-Info.plist"; sourceTree = "<group>"; };
+		84DFBD2217E0F41F00D8AB56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84DFBD2417E0F41F00D8AB56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DFBD2617E0F41F00D8AB56 /* FunCam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunCam-Prefix.pch"; sourceTree = "<group>"; };
+		84DFBD2717E0F41F00D8AB56 /* FCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAppDelegate.h; sourceTree = "<group>"; };
+		84DFBD2817E0F41F00D8AB56 /* FCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAppDelegate.m; sourceTree = "<group>"; };
+		84DFBD2B17E0F41F00D8AB56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DFBD2D17E0F41F00D8AB56 /* FCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMasterViewController.h; sourceTree = "<group>"; };
+		84DFBD2E17E0F41F00D8AB56 /* FCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMasterViewController.m; sourceTree = "<group>"; };
+		84DFBD3017E0F41F00D8AB56 /* FCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCDetailViewController.h; sourceTree = "<group>"; };
+		84DFBD3117E0F41F00D8AB56 /* FCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCDetailViewController.m; sourceTree = "<group>"; };
+		84DFBD3317E0F41F00D8AB56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84DFBD3917E0F41F00D8AB56 /* FunCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DFBD3A17E0F41F00D8AB56 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84DFBD4217E0F41F00D8AB56 /* FunCamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FunCamTests-Info.plist"; sourceTree = "<group>"; };
+		84DFBD4417E0F41F00D8AB56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84DFBD4617E0F41F00D8AB56 /* FunCamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunCamTests.m; sourceTree = "<group>"; };
+		84DFBD5017E172F700D8AB56 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		84DFBD5117E172F700D8AB56 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		84DFBD5317E18CC000D8AB56 /* FunCam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FunCam.png; sourceTree = "<group>"; };
+		84DFBD5417E18CC000D8AB56 /* FunCam@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FunCam@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DFBD1217E0F41F00D8AB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFBD1B17E0F41F00D8AB56 /* CoreGraphics.framework in Frameworks */,
+				84DFBD1D17E0F41F00D8AB56 /* UIKit.framework in Frameworks */,
+				84DFBD1917E0F41F00D8AB56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DFBD3617E0F41F00D8AB56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFBD3B17E0F41F00D8AB56 /* XCTest.framework in Frameworks */,
+				84DFBD3D17E0F41F00D8AB56 /* UIKit.framework in Frameworks */,
+				84DFBD3C17E0F41F00D8AB56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DFBD0C17E0F41F00D8AB56 = {
+			isa = PBXGroup;
+			children = (
+				84DFBD1E17E0F41F00D8AB56 /* FunCam */,
+				84DFBD4017E0F41F00D8AB56 /* FunCamTests */,
+				84DFBD1717E0F41F00D8AB56 /* Frameworks */,
+				84DFBD1617E0F41F00D8AB56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DFBD1617E0F41F00D8AB56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DFBD1517E0F41F00D8AB56 /* FunCam.app */,
+				84DFBD3917E0F41F00D8AB56 /* FunCamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DFBD1717E0F41F00D8AB56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84DFBD1817E0F41F00D8AB56 /* Foundation.framework */,
+				84DFBD1A17E0F41F00D8AB56 /* CoreGraphics.framework */,
+				84DFBD1C17E0F41F00D8AB56 /* UIKit.framework */,
+				84DFBD3A17E0F41F00D8AB56 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84DFBD1E17E0F41F00D8AB56 /* FunCam */ = {
+			isa = PBXGroup;
+			children = (
+				84DFBD5317E18CC000D8AB56 /* FunCam.png */,
+				84DFBD5417E18CC000D8AB56 /* FunCam@2x.png */,
+				84DFBD5017E172F700D8AB56 /* Photo.h */,
+				84DFBD5117E172F700D8AB56 /* Photo.m */,
+				84DFBD2717E0F41F00D8AB56 /* FCAppDelegate.h */,
+				84DFBD2817E0F41F00D8AB56 /* FCAppDelegate.m */,
+				84DFBD2A17E0F41F00D8AB56 /* Main.storyboard */,
+				84DFBD2D17E0F41F00D8AB56 /* FCMasterViewController.h */,
+				84DFBD2E17E0F41F00D8AB56 /* FCMasterViewController.m */,
+				84DFBD3017E0F41F00D8AB56 /* FCDetailViewController.h */,
+				84DFBD3117E0F41F00D8AB56 /* FCDetailViewController.m */,
+				84DFBD3317E0F41F00D8AB56 /* Images.xcassets */,
+				84DFBD1F17E0F41F00D8AB56 /* Supporting Files */,
+			);
+			path = FunCam;
+			sourceTree = "<group>";
+		};
+		84DFBD1F17E0F41F00D8AB56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DFBD2017E0F41F00D8AB56 /* FunCam-Info.plist */,
+				84DFBD2117E0F41F00D8AB56 /* InfoPlist.strings */,
+				84DFBD2417E0F41F00D8AB56 /* main.m */,
+				84DFBD2617E0F41F00D8AB56 /* FunCam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84DFBD4017E0F41F00D8AB56 /* FunCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				84DFBD4617E0F41F00D8AB56 /* FunCamTests.m */,
+				84DFBD4117E0F41F00D8AB56 /* Supporting Files */,
+			);
+			path = FunCamTests;
+			sourceTree = "<group>";
+		};
+		84DFBD4117E0F41F00D8AB56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DFBD4217E0F41F00D8AB56 /* FunCamTests-Info.plist */,
+				84DFBD4317E0F41F00D8AB56 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DFBD1417E0F41F00D8AB56 /* FunCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DFBD4A17E0F41F00D8AB56 /* Build configuration list for PBXNativeTarget "FunCam" */;
+			buildPhases = (
+				84DFBD1117E0F41F00D8AB56 /* Sources */,
+				84DFBD1217E0F41F00D8AB56 /* Frameworks */,
+				84DFBD1317E0F41F00D8AB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunCam;
+			productName = FunCam;
+			productReference = 84DFBD1517E0F41F00D8AB56 /* FunCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84DFBD3817E0F41F00D8AB56 /* FunCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DFBD4D17E0F41F00D8AB56 /* Build configuration list for PBXNativeTarget "FunCamTests" */;
+			buildPhases = (
+				84DFBD3517E0F41F00D8AB56 /* Sources */,
+				84DFBD3617E0F41F00D8AB56 /* Frameworks */,
+				84DFBD3717E0F41F00D8AB56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84DFBD3F17E0F41F00D8AB56 /* PBXTargetDependency */,
+			);
+			name = FunCamTests;
+			productName = FunCamTests;
+			productReference = 84DFBD3917E0F41F00D8AB56 /* FunCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DFBD0D17E0F41F00D8AB56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FC;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "La Trobe University";
+				TargetAttributes = {
+					84DFBD3817E0F41F00D8AB56 = {
+						TestTargetID = 84DFBD1417E0F41F00D8AB56;
+					};
+				};
+			};
+			buildConfigurationList = 84DFBD1017E0F41F00D8AB56 /* Build configuration list for PBXProject "FunCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DFBD0C17E0F41F00D8AB56;
+			productRefGroup = 84DFBD1617E0F41F00D8AB56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DFBD1417E0F41F00D8AB56 /* FunCam */,
+				84DFBD3817E0F41F00D8AB56 /* FunCamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DFBD1317E0F41F00D8AB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFBD5617E18CC000D8AB56 /* FunCam@2x.png in Resources */,
+				84DFBD3417E0F41F00D8AB56 /* Images.xcassets in Resources */,
+				84DFBD2317E0F41F00D8AB56 /* InfoPlist.strings in Resources */,
+				84DFBD2C17E0F41F00D8AB56 /* Main.storyboard in Resources */,
+				84DFBD5517E18CC000D8AB56 /* FunCam.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DFBD3717E0F41F00D8AB56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFBD4517E0F41F00D8AB56 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DFBD1117E0F41F00D8AB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFBD2517E0F41F00D8AB56 /* main.m in Sources */,
+				84DFBD2F17E0F41F00D8AB56 /* FCMasterViewController.m in Sources */,
+				84DFBD3217E0F41F00D8AB56 /* FCDetailViewController.m in Sources */,
+				84DFBD5217E172F700D8AB56 /* Photo.m in Sources */,
+				84DFBD2917E0F41F00D8AB56 /* FCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DFBD3517E0F41F00D8AB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DFBD4717E0F41F00D8AB56 /* FunCamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84DFBD3F17E0F41F00D8AB56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84DFBD1417E0F41F00D8AB56 /* FunCam */;
+			targetProxy = 84DFBD3E17E0F41F00D8AB56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84DFBD2117E0F41F00D8AB56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DFBD2217E0F41F00D8AB56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84DFBD2A17E0F41F00D8AB56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DFBD2B17E0F41F00D8AB56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DFBD4317E0F41F00D8AB56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DFBD4417E0F41F00D8AB56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DFBD4817E0F41F00D8AB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		84DFBD4917E0F41F00D8AB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DFBD4B17E0F41F00D8AB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunCam/FunCam-Prefix.pch";
+				INFOPLIST_FILE = "FunCam/FunCam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84DFBD4C17E0F41F00D8AB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunCam/FunCam-Prefix.pch";
+				INFOPLIST_FILE = "FunCam/FunCam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84DFBD4E17E0F41F00D8AB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FunCam.app/FunCam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunCam/FunCam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FunCamTests/FunCamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84DFBD4F17E0F41F00D8AB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FunCam.app/FunCam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FunCam/FunCam-Prefix.pch";
+				INFOPLIST_FILE = "FunCamTests/FunCamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DFBD1017E0F41F00D8AB56 /* Build configuration list for PBXProject "FunCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DFBD4817E0F41F00D8AB56 /* Debug */,
+				84DFBD4917E0F41F00D8AB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DFBD4A17E0F41F00D8AB56 /* Build configuration list for PBXNativeTarget "FunCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DFBD4B17E0F41F00D8AB56 /* Debug */,
+				84DFBD4C17E0F41F00D8AB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DFBD4D17E0F41F00D8AB56 /* Build configuration list for PBXNativeTarget "FunCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DFBD4E17E0F41F00D8AB56 /* Debug */,
+				84DFBD4F17E0F41F00D8AB56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84DFBD0D17E0F41F00D8AB56 /* Project object */;
+}
